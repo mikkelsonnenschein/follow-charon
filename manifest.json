@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "follow charon",
+    "version": "0.12",
+    "permissions": ["activeTab"],
+    "web_accessible_resources": ["img/226.png"],
+    "content_scripts":  [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["karon.js"]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "pitchfork.png"    
+    }
+    
+    
+}
