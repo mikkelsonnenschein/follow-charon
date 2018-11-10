@@ -1,2 +1,0 @@
-# follow-charon
-follow-charon
