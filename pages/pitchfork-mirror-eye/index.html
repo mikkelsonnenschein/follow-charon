@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>pitchfork-mirror</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+
+	<style>   
+        /*
+        @font-face {
+            font-family: lack-regular;
+            src: url(font/Lack-Regular.otf);
+        }
+        */
+        
+        body{
+            margin:0;
+			padding:0;
+        }
+        
+        #mirror {
+            width: 800px;
+            text-align: center;
+            margin: 80px auto 0 auto;
+            font-size: 4px;
+        }
+        
+        .inline {
+            margin: 0px;
+            padding: 0px;
+            font-size: 36px;
+            display: inline-block;
+            width: 8px;
+            line-height: 2px;
+            vertical-align: top;
+            height: 2px;
+            
+        }
+        .mute {
+            position: fixed;
+            bottom: 0px;
+            left: 16px;
+            cursor: pointer;
+        }
+        .follow-charon {
+            font-family: lack-regular;
+            position: fixed;
+            bottom: -8px;
+            right: 16px;
+            cursor: pointer;
+            font-size: 24px
+        }
+        
+        
+	</style>
+</head>
+<body>
+
+    <div id="mirror">
+    </div>
+
+</body>
+</html>
