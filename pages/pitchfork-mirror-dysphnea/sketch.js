@@ -46,6 +46,7 @@ function setup() {
     muteBbn = createP('🔇');
     muteBbn.mousePressed(togglePlaying);
     muteBbn.class('mute');
+    
 }
 
 function draw() {

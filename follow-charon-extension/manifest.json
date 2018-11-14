@@ -1,7 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "follow charon",
-    "version": "0.12",
+    "name": "Follow Charon",
+    "version": "0.14",
+    "description": "Memento Mori",
+    "icons": {  "16": "pitchfork16.png",
+                "48": "pitchfork48.png",
+                "128": "pitchfork128.png" },
     "permissions": ["activeTab"],
     "web_accessible_resources": ["img/226.png"],
     "content_scripts":  [
